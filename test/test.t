@@ -1,4 +1,4 @@
-BEGIN { print "$ENV{PWD}\n" }
+BEGIN { warn ">>>>>>>>>> $ENV{PWD}\n" }
 use lib '../pegex-pm/lib';
 use lib '../testml-pm/lib';
 

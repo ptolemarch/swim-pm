@@ -8,11 +8,10 @@ perl:
 - 5.8
 
 install:
-- pwd
 - git clone --depth=1 --branch=new-syntax
   git://github.com/ingydotnet/testml-pm ../testml-pm
 - git clone --depth=1 --branch=new-syntax
-  git://github.com/ingydotnet/testml-pm ../pegex-pm
+  git://github.com/ingydotnet/pegex-pm ../pegex-pm
 - cpanm --quiet --notest
   Devel::Cover::Report::Coveralls
   HTML::Escape

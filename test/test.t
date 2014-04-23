@@ -1,3 +1,4 @@
+BEGIN { print "$ENV{PWD}\n" }
 use lib '../pegex-pm/lib';
 use lib '../testml-pm/lib';
 
@@ -10,6 +11,7 @@ TestML->new(
 
 use base 'TestML::Bridge';
 use TestML::Util;
+use Pegex::Grammar;
 use Kwim::Grammar;
 use Kwim::Byte;
 use Kwim::HTML;

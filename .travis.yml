@@ -8,6 +8,7 @@ perl:
 - 5.8
 
 install:
+- pwd
 - git clone --depth=1 --branch=new-syntax
   git://github.com/ingydotnet/testml-pm ../testml-pm
 - git clone --depth=1 --branch=new-syntax

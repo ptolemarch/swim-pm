@@ -86,7 +86,7 @@ Do -not- touch.
   touch.
 -para
 --- html
-<p>Do <del>not</del> touch.
+<p>Do <del>not</del> touch.</p>
 
 === Delete Markup-hyphenated
 --- kwim

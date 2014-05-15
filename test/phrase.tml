@@ -84,6 +84,7 @@ Do -not- touch.
  not
 -del
   touch.
+-para
 --- html
 <p>Do <del>not</del> touch.
 
@@ -97,5 +98,6 @@ Her -well-known- infamous father-in-law.
  well-known
 -del
   infamous father-in-law.
+-para
 --- html
 <p>Her <del>well-known</del> infamous father-in-law</p>

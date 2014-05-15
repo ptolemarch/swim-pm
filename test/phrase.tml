@@ -56,3 +56,28 @@ I like **_`pi`_**.
 --- pod
 I like B<<< I<< C<pi> >> >>>.
 
+=== Delete Markup
+--- kwim
+Do -not- touch.
+--- byte
++para
+ Do 
++del
+ not
+-del
+  touch.
+--- html
+<p>Do <del>not</del> touch.
+
+=== Delete Markup-hyphenated
+--- kwim
+Her -well-known- infamous father-in-law.
+--- byte
++para
+ Her
++del
+ well-known
+-del
+  infamous father-in-law.
+--- html
+<p>Her <del>well-known</del> infamous father-in-law</p>

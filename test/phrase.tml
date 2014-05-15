@@ -101,3 +101,13 @@ Her -well-known- infamous father-in-law.
 -para
 --- html
 <p>Her <del>well-known</del> infamous father-in-law</p>
+
+=== Delete Markup - prefixes
+--- kwim
+I tried left-, right- and middle-clicking.
+--- byte
++para
+ I tried left-, right- and middle-clicking.
+-para
+--- html
+<p>I tried left-, right- and middle-clicking.</p>
